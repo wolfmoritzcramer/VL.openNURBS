@@ -584,7 +584,7 @@
               </Patch>
             </Node>
             <Node Bounds="1495,508,116,13" Id="KfNx94SiEefMsOTb1OhQvY">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryType" />
               </p:NodeReference>
@@ -601,7 +601,7 @@
             <Pad Id="DYabBFJvZr6PAeO2cF3mNa" Comment="Count" Bounds="1609,540,18,19" ShowValueBox="true" isIOBox="true" />
             <Pad Id="D2HNoMhr8KuLoMM8ypuOL4" Comment="Count" Bounds="376,723,24,19" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="1839,507,116,13" Id="V3JgC8cp4UZMqpmneG4EJH">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryType" />
               </p:NodeReference>
@@ -617,7 +617,7 @@
             </Pad>
             <Pad Id="Ftqgmtrs021P7BQ4LJ1iJP" Comment="Count" Bounds="1953,539,18,19" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="2239,432,116,13" Id="SOWs6bVN5q3NLznViEDuqv">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryType" />
               </p:NodeReference>
@@ -1043,7 +1043,7 @@
               </Patch>
             </Node>
             <Node Bounds="1495,582,106,13" Id="OBdWsucwRfJNbYA9OEBIie">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="ObjectMeshToVector3" />
               </p:NodeReference>
@@ -1477,7 +1477,7 @@
                               <Pin Id="LCFqnniBzjKL2Q2shKOYWf" Name="Result" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="4952,1189,106,13" Id="CyfSw82jbdSOctRqHWnxf1">
-                              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+                              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationNode" Name="SplitMeshVector3" />
                               </p:NodeReference>
@@ -1709,7 +1709,7 @@
               </Patch>
             </Node>
             <Node Bounds="2248,505,83,13" Id="SZxRe8NeevKL82uG610XkE">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="BrepToMesh" />
               </p:NodeReference>
@@ -1795,7 +1795,7 @@
                         </Node>
                         <Pad Id="FtHwbl16gl3P7GIUe7eLGq" Comment="Success" Bounds="2169,1350,40,19" ShowValueBox="true" isIOBox="true" />
                         <Node Bounds="2168,1435,106,13" Id="AvkZh629OdLNRlnFb9synP">
-                          <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+                          <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="SplitMeshVector3" />
                           </p:NodeReference>
@@ -1899,7 +1899,7 @@
                 <Patch Id="TuIzCVQ0g1qNcpEF2mPGJi" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="GEBxNrDBrdLMIEKszSrkdX" Name="Dispose" ManuallySortedPins="true" />
                 <Node Bounds="2291,656,106,13" Id="ApadYsw4VPTNMCn9zJxnMH">
-                  <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+                  <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="SplitMeshVector3" />
                   </p:NodeReference>
@@ -1927,7 +1927,7 @@
               <Pin Id="BzT7mW6aDqFMDWXf8rU1e6" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="1840,584,100,13" Id="MqT42cbj0s5OdIP2isUCvT">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="CurveToVector3" />
               </p:NodeReference>
@@ -2269,7 +2269,7 @@
               </Patch>
             </Node>
             <Node Bounds="374,682,128,13" Id="Np2v1m2nRYMPgHqwD6a24W">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryToType" />
               </p:NodeReference>
@@ -2405,7 +2405,7 @@
               </Patch>
             </Node>
             <Node Bounds="435,830,97,13" Id="UTWJAnP1d1TM2ckErA5qJf">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationNode" Name="Point3dToVector3" />
               </p:NodeReference>
@@ -2460,7 +2460,7 @@
               </Patch>
             </Node>
             <Node Bounds="435,782,96,13" Id="ApqNgBaRjmVNL0AztBdBvQ">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="PointToPoint3d" />
               </p:NodeReference>
@@ -2469,7 +2469,7 @@
             </Node>
             <Pad Id="Gl43Qi3kdd8Psgq1LCnl2o" Comment="Count" Bounds="668,721,24,19" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="666,680,128,13" Id="HJNeFQEWTdtMYvywcn53wQ">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryToType" />
               </p:NodeReference>
@@ -2826,7 +2826,7 @@
               </Patch>
             </Node>
             <Node Bounds="793,802" Id="VDUvVtszJs4LDqQ26855b6">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="MeshToVector3" />
               </p:NodeReference>
@@ -2840,7 +2840,7 @@
             <ControlPoint Id="SBDCM3zb6gpM6PPiM3VyRt" Bounds="922,856" />
             <Pad Id="O23aHvnNWQlPDCZHLzmSWK" Comment="Count" Bounds="1035,722,24,19" ShowValueBox="true" isIOBox="true" />
             <Node Bounds="1033,681,128,13" Id="HvXVDHEQw3bLsQxBf9PIoC">
-              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.OpenNurbs.vl">
+              <p:NodeReference LastCategoryFullName="VVVV.3d.OpenNurbs" LastSymbolSource="VVVV.3d.openNURBS.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="FilterGeometryToType" />
               </p:NodeReference>

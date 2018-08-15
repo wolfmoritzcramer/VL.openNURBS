@@ -1,11 +1,11 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha36.1.dtd" >
-   <PATCH nodename="C:\Dropbox (Privat)\# DEV\03_vvvv\opennurbs\callmenames.v4p" systemname="callmenames" filename="C:\Users\joreg\Desktop\sandbox\opennurbs\callmenames.v4p" scrollx="0" scrolly="496">
+   <PATCH nodename="C:\# Repositories\openNURBS\VL.openNURBS\openNurbs_Test.v4p" systemname="callmenames" filename="C:\Users\joreg\Desktop\sandbox\opennurbs\callmenames.v4p" scrollx="0" scrolly="496">
    <BOUNDS type="Window" left="616" top="1472" width="19184" height="10872">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
    </PACK>
    <NODE systemname="OpenNurbs (3d)" filename="vl\VVVV.3d.OpenNurbs.vl" nodename="OpenNurbs (3d)" componentmode="Hidden" id="23">
-   <BOUNDS type="Node" left="4208" top="856" width="100" height="100">
+   <BOUNDS type="Node" left="4040" top="1136" width="100" height="100">
    </BOUNDS>
    <PIN pinname="VerticesXYZ" visible="1">
    </PIN>
@@ -299,7 +299,7 @@
    </BOUNDS>
    <PIN pinname="Transform Out" visible="1">
    </PIN>
-   <PIN pinname="XYZ" slicecount="1" values="10" visible="1">
+   <PIN pinname="XYZ" slicecount="1" visible="1" values="10">
    </PIN>
    </NODE>
    <LINK srcnodeid="74" srcpinname="Transform Out" dstnodeid="63" dstpinname="Transform In">
@@ -311,9 +311,9 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7288" top="4856" width="1600" height="1600">
    </BOUNDS>
-   <PIN pinname="Vertices Bin Size" slicecount="1" values="25" visible="1">
+   <PIN pinname="Vertices Bin Size" slicecount="1" visible="1" values="25">
    </PIN>
-   <PIN pinname="Update" slicecount="1" values="0" visible="1">
+   <PIN pinname="Update" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="VerticesXYZ" visible="1">
    </PIN>
