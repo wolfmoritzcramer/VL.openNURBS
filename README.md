@@ -2,7 +2,7 @@ VL.openNURBS
 
 
 Just started to integrate the openNURBS library in vl.
-https://www.rhino3d.com/en/opennurbs 3
+https://www.rhino3d.com/en/opennurbs
 
 See also:
 
