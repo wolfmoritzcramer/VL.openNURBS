@@ -4,6 +4,10 @@ VL.openNURBS
 Just started to integrate the openNURBS library in vl.
 https://www.rhino3d.com/en/opennurbs 3
 
+See also:
+
+https://discourse.vvvv.org/t/opennurbs-rhinoceros3d-grasshopper-3dm/16621
+
 Topics:
 
   1. Read the relevant contents of a Rhino3D file (*.3dm)
