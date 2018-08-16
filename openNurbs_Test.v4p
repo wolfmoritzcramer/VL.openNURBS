@@ -341,9 +341,9 @@
    <LINK srcnodeid="97" srcpinname="Layer" dstnodeid="27" dstpinname="Layer 2">
    </LINK>
    <NODE systemname="Mesh (DX11.Geometry Join Subsets)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Mesh (DX11.Geometry Join Subsets)" componentmode="Hidden" id="98">
-   <BOUNDS type="Node" left="6960" top="3984" width="100" height="100">
+   <BOUNDS type="Node" left="7320" top="4432" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="6960" top="3984" width="1600" height="1600">
+   <BOUNDS type="Box" left="7320" top="4432" width="1600" height="1600">
    </BOUNDS>
    <PIN pinname="Texture CoordsXY" slicecount="1" values="0">
    </PIN>
