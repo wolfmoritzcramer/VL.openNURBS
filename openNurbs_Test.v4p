@@ -1,5 +1,5 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha36.1.dtd" >
-   <PATCH nodename="C:\# Repositories\openNURBS\VL.openNURBS\openNurbs_Test.v4p" systemname="callmenames" filename="C:\Users\joreg\Desktop\sandbox\opennurbs\callmenames.v4p" scrollx="0" scrolly="0">
+   <PATCH nodename="C:\# Repositories\openNURBS\VL.openNURBS\openNurbs_Test.v4p" systemname="callmenames" filename="C:\Users\joreg\Desktop\sandbox\opennurbs\callmenames.v4p" scrollx="0" scrolly="-360">
    <BOUNDS type="Window" left="288" top="416" width="11904" height="10120">
    </BOUNDS>
    <PACK Name="addonpack" Version="36.0.0">
@@ -88,6 +88,8 @@
    <PIN pinname="Vector3AtEndXYZ" visible="1">
    </PIN>
    <PIN pinname="Vector3AtStartXYZ" visible="1">
+   </PIN>
+   <PIN pinname="LayerNames" visible="1">
    </PIN>
    </NODE>
    <NODE systemname="Renderer (DX11)" filename="%VVVV%\packs\dx11\nodes\plugins\base\VVVV.DX11.Nodes.dll" nodename="Renderer (DX11)" componentmode="InAWindow" id="26" stayontop="1">
@@ -417,6 +419,10 @@
    </PIN>
    <PIN pinname="Output" visible="1">
    </PIN>
+   <PIN pinname="Input Count" slicecount="1" values="3">
+   </PIN>
+   <PIN pinname="Input 3" visible="1">
+   </PIN>
    </NODE>
    <LINK srcnodeid="23" srcpinname="MeshVerticesXYZ" dstnodeid="100" dstpinname="Input 1">
    </LINK>
@@ -439,5 +445,23 @@
    <LINK srcnodeid="23" srcpinname="Vector3AtStartXYZ" dstnodeid="101" dstpinname="Input 1">
    </LINK>
    <LINK srcnodeid="101" srcpinname="Output" dstnodeid="100" dstpinname="Input 2">
+   </LINK>
+   <LINK srcnodeid="23" srcpinname="PointsVector3XYZ" dstnodeid="100" dstpinname="Input 3">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="104">
+   <BOUNDS type="Box" left="10128" top="632" width="1248" height="1856">
+   </BOUNDS>
+   <BOUNDS type="Node" left="10128" top="632" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Rows" slicecount="1" values="10">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="23" srcpinname="LayerNames" dstnodeid="104" dstpinname="Input String">
    </LINK>
    </PATCH>
