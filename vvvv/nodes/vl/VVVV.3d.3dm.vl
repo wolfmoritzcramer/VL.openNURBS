@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.91">
+  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
+  <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
+  <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
+    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.3d" CanvasType="FullCategory">
+      <!--
+
+    ************************ RhinoReader ************************
+
+-->
+      <Node Name="RhinoReader" Bounds="190,149" Id="TSttkfeJHQSN5gkEF54G9o">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Patch" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
+          <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
+          <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
+            <Pin Id="GF8gjzJnV2nQXh8D7gqCat" Name="Filename" Kind="InputPin" />
+            <Pin Id="AM2oeVE2kJaOdNpKphOzuI" Name="Reload" Kind="InputPin" />
+            <Pin Id="Dyrley41kAiK9nvLJD8VEf" Name="File3dmObjectTable" Kind="OutputPin" />
+            <Pin Id="R6v7W6dg49ZQGFBKlGgimJ" Name="LayerNames" Kind="OutputPin" />
+            <Pin Id="KhrfKkaN0XpOx2DUNU45bQ" Name="PointsVector3" Kind="OutputPin" />
+            <Pin Id="JpUcJFhaORML5Ipx4aahRI" Name="Vector3At" Kind="OutputPin" />
+            <Pin Id="A6lFt81xfDLQMkqQnLWzea" Name="Vector3AtStart" Kind="OutputPin" />
+            <Pin Id="FmUrZ1C2NW0NLoWpFzeY3I" Name="Vector3AtEnd" Kind="OutputPin" />
+            <Pin Id="T9rGrIOE2YaNwdtFuQzNqL" Name="MeshVertices" Kind="OutputPin" />
+            <Pin Id="KT4foQYzWvkNIRdrK9ydVr" Name="MeshNormals" Kind="OutputPin" />
+            <Pin Id="Oe6h0db14a7L7HEfVHJPKH" Name="MeshFaces" Kind="OutputPin" />
+            <Pin Id="MxEUw2hwtoOLhBdiID7AOo" Name="BrepVertices" Kind="OutputPin" />
+            <Pin Id="HNPNM0a6alWOgabYBNuRsz" Name="BrepNormals" Kind="OutputPin" />
+            <Pin Id="Drn9ggRgbuvPJcnF1IHEwu" Name="BrepFaces" Kind="OutputPin" />
+          </Patch>
+          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
+            <Pad Id="KglnJ9DJkLBQdwSBiwvRhc" Bounds="467,207,194,166" ShowValueBox="true" isIOBox="true" Value="&quot;this is only a dumb wrapper to bring the reader into the vvvv world. it allows us to place the node into vvvv's 3d category while the original vl node resides in a different category more suitable for vl.&quot;">
+              <p:TypeAnnotation>
+                <Choice Kind="TypeFlag" Name="String" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:fontsize p:Type="Int32">9</p:fontsize>
+                <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+              </p:ValueBoxSettings>
+            </Pad>
+            <Node Bounds="302,203,85,13" AutoConnect="true" Id="Lf8OVi7sgzWN44xI4FoU8j">
+              <p:NodeReference LastCategoryFullName="Graphics.openNurbs" LastSymbolSource="VL.openNURBS.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="Read3dmFile" />
+              </p:NodeReference>
+              <Pin Id="VbdVe72ZHYfOctt0geIfsV" Name="Filename" Kind="InputPin" />
+              <Pin Id="Qxvz0TWS8vLNZA1EROzRHZ" Name="Reload" Kind="InputPin" />
+              <Pin Id="UU7kq4v5khPOPRJz8o95A9" Name="File3dm" Kind="OutputPin" />
+              <Pin Id="K34xrNdUBm9Mqy4oOUzUoH" Name="File3dmObjectTable" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="295,551,205,13" AutoConnect="true" Id="IzGr2RwmZ6tNvS70ZuAt14">
+              <p:NodeReference LastCategoryFullName="Graphics.openNurbs" LastSymbolSource="VL.openNURBS.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="openNURBS" />
+              </p:NodeReference>
+              <Pin Id="PgqVGWCdO0FNUpFIX20y2O" Name="File3dm" Kind="InputPin" />
+              <Pin Id="I5hM88S9jpaPRIM9tXMvHo" Name="LayerNames" Kind="OutputPin" />
+              <Pin Id="TL12EoJJ3EsMDa8tsKWWCZ" Name="PointsVector3" Kind="OutputPin" />
+              <Pin Id="B9UhY0UPLmYOx1qe5lgY8I" Name="Vector3At" Kind="OutputPin" />
+              <Pin Id="S2IlcjAVMXJLyKExLjxUTF" Name="Vector3AtStart" Kind="OutputPin" />
+              <Pin Id="Ceir2Nj3QFAPu0kr5cw731" Name="Vector3AtEnd" Kind="OutputPin" />
+              <Pin Id="NuM41kklzjnNHe3c3ZKoS7" Name="MeshVertices" Kind="OutputPin" />
+              <Pin Id="VwfS2w6Irb3LZsAZk9HiSq" Name="MeshNormals" Kind="OutputPin" />
+              <Pin Id="JLPIDxHMj10OiXg8GXdcpa" Name="MeshFaces" Kind="OutputPin" />
+              <Pin Id="E1hbhUPRL7tNp8jQ93yFqe" Name="BrepVertices" Kind="OutputPin" />
+              <Pin Id="IWVDVjSFOsNQNPiMErm9MB" Name="BrepNormals" Kind="OutputPin" />
+              <Pin Id="S7aaeYKp870PlRLqxr8BhR" Name="BrepFaces" Kind="OutputPin" />
+            </Node>
+          </Canvas>
+          <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
+            <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
+            <Fragment Id="PulIQZQ5YLtPp6C2yvbTNE" Patch="OkqGvJfa3PDOppp4PFQghD" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="F4CEEI4zrLJQd7CapIsUaX" Ids="UU7kq4v5khPOPRJz8o95A9,PgqVGWCdO0FNUpFIX20y2O" />
+        </Patch>
+      </Node>
+    </Canvas>
+  </Patch>
+  <DocumentDependency Id="Iooc7f7g0tDPfRiOuZBhH2" Location="../../../VL.openNURBS.vl" />
+</Document>
