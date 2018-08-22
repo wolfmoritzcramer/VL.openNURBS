@@ -4,6 +4,9 @@ VL.openNURBS
 Just started to integrate the openNURBS library in vl.
 https://www.rhino3d.com/en/opennurbs
 
+To use it you will need the NuGet https://www.nuget.org/packages/Rhino3dmIO.Desktop
+and add it via cmdline argument.
+
 See also:
 
 https://discourse.vvvv.org/t/opennurbs-rhinoceros3d-grasshopper-3dm/16621
