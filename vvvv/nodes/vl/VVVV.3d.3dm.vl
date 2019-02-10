@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.91">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.94">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
@@ -33,7 +33,7 @@
             <Pin Id="Drn9ggRgbuvPJcnF1IHEwu" Name="BrepFaces" Kind="OutputPin" />
           </Patch>
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
-            <Pad Id="KglnJ9DJkLBQdwSBiwvRhc" Bounds="467,207,194,166" ShowValueBox="true" isIOBox="true" Value="&quot;this is only a dumb wrapper to bring the reader into the vvvv world. it allows us to place the node into vvvv's 3d category while the original vl node resides in a different category more suitable for vl.&quot;">
+            <Pad Id="KglnJ9DJkLBQdwSBiwvRhc" Bounds="467,207,194,166" ShowValueBox="true" isIOBox="true" Value="this is only a dumb wrapper to bring the reader into the vvvv world. it allows us to place the node into vvvv's 3d category while the original vl node resides in a different category more suitable for vl.">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -75,7 +75,7 @@
             <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
             <Fragment Id="PulIQZQ5YLtPp6C2yvbTNE" Patch="OkqGvJfa3PDOppp4PFQghD" Enabled="true" />
           </ProcessDefinition>
-          <Link Id="F4CEEI4zrLJQd7CapIsUaX" Ids="UU7kq4v5khPOPRJz8o95A9,PgqVGWCdO0FNUpFIX20y2O" />
+          <Link Id="Ak1RJVZQEY3QD4ZnPhlQqm" Ids="UU7kq4v5khPOPRJz8o95A9,PgqVGWCdO0FNUpFIX20y2O" />
         </Patch>
       </Node>
     </Canvas>

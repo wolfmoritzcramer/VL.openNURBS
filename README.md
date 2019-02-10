@@ -5,7 +5,11 @@ Just started to integrate the openNURBS library in vl.
 https://www.rhino3d.com/en/opennurbs
 
 To use it you will need the NuGet https://www.nuget.org/packages/Rhino3dmIO.Desktop
-and add it via cmdline argument.
+and need to add a search path for VL via a batch file:
+
+SET PATH=%PATH%;c:\path\to\nugets\nativelibs;
+vvvv.exe
+
 
 See also:
 
