@@ -1,3 +1,12 @@
+
+
+
+DEPRECATED! Please use VL.Rhino.3dm
+https://github.com/wolfmoritzcramer/VL.Rhino.3dm
+
+
+
+
 VL.openNURBS
 
 
